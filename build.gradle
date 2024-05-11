@@ -1,0 +1,16 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.0-alpha08' apply false
+    id 'com.android.library' version '8.0.0-alpha08' apply false
+}
+
+ext {
+    buildToolsVersion = "33.0.1"
+    minSdkVersion = 23
+    compileSdkVersion = 33
+    targetSdkVersion = 33
+    useSdkVersion = "1.0.0"
+    sdkVersion = "2.3.6"
+    sdkFileDir = "D:\\LDSDK"
+    projectName = "public"
+}

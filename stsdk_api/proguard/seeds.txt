@@ -1,0 +1,7 @@
+com.ldrobot.api.BuildConfig
+com.ldrobot.api.R
+com.ldrobot.api.BuildConfig: java.lang.String BUILD_TYPE
+com.ldrobot.api.BuildConfig: boolean DEBUG
+com.ldrobot.api.BuildConfig: java.lang.String LIBRARY_PACKAGE_NAME
+com.ldrobot.api.BuildConfig: BuildConfig()
+com.ldrobot.api.R: R()

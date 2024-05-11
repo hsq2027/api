@@ -1,0 +1,8 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 0e1b8ef
+# pg_map_hash: SHA-256 0e1b8efb1bd0e06823616465ddbda28cda7d42a9b874174c1122dbb7170caa41
+com.ldrobot.api.BuildConfig -> com.ldrobot.api.BuildConfig:
+    1:1:void <init>():6:6 -> <init>

@@ -18,4 +18,4 @@ rootProject.name = "MyApplication2"
 include ':app'
 //include ':stsdk_utils'
 //include ':stsdk_bean'
-include ':stsdk_util'
+include ':stsdk_api'

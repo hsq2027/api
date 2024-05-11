@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'maven-publish'
+apply plugin: 'maven-publish'
 //apply from: '../maven-publish.gradle'
 //apply from: '../publish-task.gradle'
 
@@ -59,3 +59,16 @@ dependencies {
 //        }
 //    }
 //}
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.hsq.bean'
+            artifactId = 'hsq'
+            version = '1.0.0'
+
+            afterEvaluate {
+                from components.findByName('release')
+            }
+        }
+    }
+}

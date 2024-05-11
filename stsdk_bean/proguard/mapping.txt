@@ -1,19 +1,16 @@
 # compiler: R8
-# compiler_version: 8.0.15-dev
-# compiler_hash: 18d06d78b11c4f0cd72a0b5452e314ff64481cf8
+# compiler_version: 4.0.52
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.1"}
-# pg_map_id: 0d86d48
-# pg_map_hash: SHA-256 0d86d4836d009ba44d5df840dc3ff26ea243edafb40506ca8844fc37f1ab51a8
+# pg_map_id: cb0c5f6
+# pg_map_hash: SHA-256 cb0c5f692e66708004f221260c31cbd21d3dcdc79c5f0c40950e13198b73d747
 com.ldrobot.bean.AIDetectResultBean -> com.ldrobot.bean.AIDetectResultBean:
-# {"id":"sourceFile","fileName":"AIDetectResultBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:long getTime():20:20 -> getTime
     1:1:java.util.List getValue():28:28 -> getValue
     1:1:void setTime(long):24:24 -> setTime
     1:1:void setValue(java.util.List):32:32 -> setValue
 com.ldrobot.bean.AIDetectResultBean$ValueBean -> com.ldrobot.bean.AIDetectResultBean$ValueBean:
-# {"id":"sourceFile","fileName":"AIDetectResultBean.java"}
     1:1:void <init>():35:35 -> <init>
     1:1:int getConfidence():70:70 -> getConfidence
     1:1:int getLabel():86:86 -> getLabel
@@ -30,7 +27,6 @@ com.ldrobot.bean.AIDetectResultBean$ValueBean -> com.ldrobot.bean.AIDetectResult
     1:1:void setPos_pixel(java.lang.String):98:98 -> setPos_pixel
     1:1:void setTime_stamp(java.lang.String):58:58 -> setTime_stamp
 com.ldrobot.bean.AiArea -> com.ldrobot.bean.AiArea:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <clinit>():22:22 -> <clinit>
     1:3:void <init>(android.os.Parcel):17:19 -> <init>
     1:1:java.util.ArrayList getArea():43:43 -> getArea
@@ -39,14 +35,12 @@ com.ldrobot.bean.AiArea -> com.ldrobot.bean.AiArea:
     1:1:void setTime(double):39:39 -> setTime
     1:2:void writeToParcel(android.os.Parcel,int):57:58 -> writeToParcel
 com.ldrobot.bean.AiArea$1 -> com.ldrobot.bean.AiArea$1:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <init>():22:22 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):22:22 -> createFromParcel
     2:2:com.ldrobot.bean.AiArea createFromParcel(android.os.Parcel):25:25 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):22:22 -> newArray
     2:2:com.ldrobot.bean.AiArea[] newArray(int):30:30 -> newArray
 com.ldrobot.bean.AiArea$AreaMsg -> com.ldrobot.bean.AiArea$AreaMsg:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <clinit>():84:84 -> <clinit>
     1:1:void <init>(android.os.Parcel):73:73 -> <init>
     2:19:void <init>(android.os.Parcel):64:81 -> <init>
@@ -68,14 +62,12 @@ com.ldrobot.bean.AiArea$AreaMsg -> com.ldrobot.bean.AiArea$AreaMsg:
     1:1:void setTime(double):150:150 -> setTime
     1:8:void writeToParcel(android.os.Parcel,int):168:175 -> writeToParcel
 com.ldrobot.bean.AiArea$AreaMsg$1 -> com.ldrobot.bean.AiArea$AreaMsg$1:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <init>():84:84 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):84:84 -> createFromParcel
     2:2:com.ldrobot.bean.AiArea$AreaMsg createFromParcel(android.os.Parcel):87:87 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):84:84 -> newArray
     2:2:com.ldrobot.bean.AiArea$AreaMsg[] newArray(int):92:92 -> newArray
 com.ldrobot.bean.AiArea$AreaMsg$AreaPos -> com.ldrobot.bean.AiArea$AreaMsg$AreaPos:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <clinit>():189:189 -> <clinit>
     1:4:void <init>(android.os.Parcel):183:186 -> <init>
     1:1:float getPhi():218:218 -> getPhi
@@ -86,21 +78,18 @@ com.ldrobot.bean.AiArea$AreaMsg$AreaPos -> com.ldrobot.bean.AiArea$AreaMsg$AreaP
     1:1:void setY(float):214:214 -> setY
     1:3:void writeToParcel(android.os.Parcel,int):232:234 -> writeToParcel
 com.ldrobot.bean.AiArea$AreaMsg$AreaPos$1 -> com.ldrobot.bean.AiArea$AreaMsg$AreaPos$1:
-# {"id":"sourceFile","fileName":"AiArea.java"}
     1:1:void <init>():189:189 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):189:189 -> createFromParcel
     2:2:com.ldrobot.bean.AiArea$AreaMsg$AreaPos createFromParcel(android.os.Parcel):192:192 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):189:189 -> newArray
     2:2:com.ldrobot.bean.AiArea$AreaMsg$AreaPos[] newArray(int):197:197 -> newArray
 com.ldrobot.bean.AliVoiceBean -> com.ldrobot.bean.AliVoiceBean:
-# {"id":"sourceFile","fileName":"AliVoiceBean.java"}
     1:1:void <init>():11:11 -> <init>
     1:1:java.util.List getVoicePackets():30:30 -> getVoicePackets
     1:1:java.lang.String getVoiceVersion():22:22 -> getVoiceVersion
     1:1:void setVoicePackets(java.util.List):34:34 -> setVoicePackets
     1:1:void setVoiceVersion(java.lang.String):26:26 -> setVoiceVersion
 com.ldrobot.bean.AliVoiceBean$VoicePacketsBean -> com.ldrobot.bean.AliVoiceBean$VoicePacketsBean:
-# {"id":"sourceFile","fileName":"AliVoiceBean.java"}
     1:1:void <init>():37:37 -> <init>
     1:1:java.lang.String getDec():107:107 -> getDec
     1:1:java.lang.String getImg():83:83 -> getImg
@@ -125,7 +114,6 @@ com.ldrobot.bean.AliVoiceBean$VoicePacketsBean -> com.ldrobot.bean.AliVoiceBean$
     1:1:void setTitleImg(java.lang.String):119:119 -> setTitleImg
     1:1:void setVoiceId(java.lang.String):143:143 -> setVoiceId
 com.ldrobot.bean.AliVoiceBean$VoicePacketsBean$ListsBean -> com.ldrobot.bean.AliVoiceBean$VoicePacketsBean$ListsBean:
-# {"id":"sourceFile","fileName":"AliVoiceBean.java"}
     1:1:void <init>():146:146 -> <init>
     1:1:java.lang.String getDec():175:175 -> getDec
     1:1:java.lang.String getName():167:167 -> getName
@@ -138,7 +126,6 @@ com.ldrobot.bean.AliVoiceBean$VoicePacketsBean$ListsBean -> com.ldrobot.bean.Ali
     1:1:void setTest_music(java.lang.String):195:195 -> setTest_music
     1:1:void setTitleImg(java.lang.String):187:187 -> setTitleImg
 com.ldrobot.bean.ApkUpdateBean -> com.ldrobot.bean.ApkUpdateBean:
-# {"id":"sourceFile","fileName":"ApkUpdateBean.java"}
     1:9:void <init>():11:19 -> <init>
     1:1:java.lang.String getAccounts():64:64 -> getAccounts
     1:1:java.lang.String getApkName():80:80 -> getApkName
@@ -160,7 +147,6 @@ com.ldrobot.bean.ApkUpdateBean -> com.ldrobot.bean.ApkUpdateBean:
     1:1:void setVersionName(java.lang.String):35:35 -> setVersionName
     1:1:java.lang.String toString():89:89 -> toString
 com.ldrobot.bean.AppFuncBean -> com.ldrobot.bean.AppFuncBean:
-# {"id":"sourceFile","fileName":"AppFuncBean.java"}
     1:1:void <init>():9:9 -> <init>
     1:1:com.ldrobot.bean.AppFuncBean$APPFunctionBean getAPP_function():28:28 -> getAPP_function
     1:1:java.lang.String getProductKey():20:20 -> getProductKey
@@ -168,7 +154,6 @@ com.ldrobot.bean.AppFuncBean -> com.ldrobot.bean.AppFuncBean:
     1:1:void setProductKey(java.lang.String):24:24 -> setProductKey
     1:1:java.lang.String toString():288:288 -> toString
 com.ldrobot.bean.AppFuncBean$APPFunctionBean -> com.ldrobot.bean.AppFuncBean$APPFunctionBean:
-# {"id":"sourceFile","fileName":"AppFuncBean.java"}
     1:29:void <init>():35:63 -> <init>
     1:1:int getAIObstacleAvoidance():250:250 -> getAIObstacleAvoidance
     1:1:int getAutomaticPartitioning():92:92 -> getAutomaticPartitioning
@@ -216,7 +201,6 @@ com.ldrobot.bean.AppFuncBean$APPFunctionBean -> com.ldrobot.bean.AppFuncBean$APP
     1:1:void setYDrag(int):128:128 -> setYDrag
     1:1:java.lang.String toString():259:259 -> toString
 com.ldrobot.bean.AreaInfoArrayBean -> com.ldrobot.bean.AreaInfoArrayBean:
-# {"id":"sourceFile","fileName":"AreaInfoArrayBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.ArrayList getAutoAreaValue():16:16 -> getAutoAreaValue
     1:1:long getMapId():24:24 -> getMapId
@@ -225,14 +209,12 @@ com.ldrobot.bean.AreaInfoArrayBean -> com.ldrobot.bean.AreaInfoArrayBean:
     1:1:void setMapId(long):28:28 -> setMapId
     1:1:void setValue(java.util.ArrayList):36:36 -> setValue
 com.ldrobot.bean.BaseListBean -> com.ldrobot.bean.BaseListBean:
-# {"id":"sourceFile","fileName":"BaseListBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.List getDataList():23:23 -> getDataList
     1:1:boolean isNoMore():15:15 -> isNoMore
     1:1:void setDataList(java.util.List):27:27 -> setDataList
     1:1:void setNoMore(boolean):19:19 -> setNoMore
 com.ldrobot.bean.BindDeviceBean -> com.ldrobot.bean.BindDeviceBean:
-# {"id":"sourceFile","fileName":"BindDeviceBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:int getCode():28:28 -> getCode
     1:1:java.lang.String getData():36:36 -> getData
@@ -247,10 +229,8 @@ com.ldrobot.bean.BindDeviceBean -> com.ldrobot.bean.BindDeviceBean:
     1:1:void setMessage(java.lang.String):64:64 -> setMessage
     1:1:void setRawData(java.util.List):72:72 -> setRawData
 com.ldrobot.bean.BuildConfig -> com.ldrobot.bean.BuildConfig:
-# {"id":"sourceFile","fileName":"BuildConfig.java"}
     1:1:void <init>():6:6 -> <init>
 com.ldrobot.bean.C2JavaTypeSwitch -> com.ldrobot.bean.C2JavaTypeSwitch:
-# {"id":"sourceFile","fileName":"C2JavaTypeSwitch.java"}
     1:1:void <init>():3:3 -> <init>
     1:3:int byteToInt2(byte[]):91:93 -> byteToInt2
     1:3:long byteToLong2(byte[]):117:119 -> byteToLong2
@@ -261,7 +241,6 @@ com.ldrobot.bean.C2JavaTypeSwitch -> com.ldrobot.bean.C2JavaTypeSwitch:
     1:13:short getShortFromArray(byte[],int,int):53:65 -> getShortFromArray
     1:8:short[] getShortsFromArray(byte[],int,int):6:13 -> getShortsFromArray
 com.ldrobot.bean.CountryBean -> com.ldrobot.bean.CountryBean:
-# {"id":"sourceFile","fileName":"CountryBean.java"}
     1:1:void <clinit>():30:30 -> <clinit>
     1:1:void <init>():19:19 -> <init>
     2:8:void <init>(android.os.Parcel):21:27 -> <init>
@@ -279,14 +258,12 @@ com.ldrobot.bean.CountryBean -> com.ldrobot.bean.CountryBean:
     1:1:void setSortLetters(java.lang.String):87:87 -> setSortLetters
     1:6:void writeToParcel(android.os.Parcel,int):97:102 -> writeToParcel
 com.ldrobot.bean.CountryBean$1 -> com.ldrobot.bean.CountryBean$1:
-# {"id":"sourceFile","fileName":"CountryBean.java"}
     1:1:void <init>():30:30 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):30:30 -> createFromParcel
     2:2:com.ldrobot.bean.CountryBean createFromParcel(android.os.Parcel):33:33 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):30:30 -> newArray
     2:2:com.ldrobot.bean.CountryBean[] newArray(int):38:38 -> newArray
 com.ldrobot.bean.CurPathHeaderBean -> com.ldrobot.bean.CurPathHeaderBean:
-# {"id":"sourceFile","fileName":"CurPathHeaderBean.java"}
     1:2:void <init>(byte[],int):18:19 -> <init>
     1:1:int getDataLen():72:72 -> getDataLen
     1:1:int getHeaderLen():40:40 -> getHeaderLen
@@ -305,7 +282,6 @@ com.ldrobot.bean.CurPathHeaderBean -> com.ldrobot.bean.CurPathHeaderBean:
     1:1:java.lang.String toString():97:97 -> toString
     1:13:void update(byte[],int):24:36 -> update
 com.ldrobot.bean.CurrentVoicePackageBean -> com.ldrobot.bean.CurrentVoicePackageBean:
-# {"id":"sourceFile","fileName":"CurrentVoicePackageBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getName():30:30 -> getName
     1:1:java.lang.String getState():14:14 -> getState
@@ -314,7 +290,6 @@ com.ldrobot.bean.CurrentVoicePackageBean -> com.ldrobot.bean.CurrentVoicePackage
     1:1:void setState(java.lang.String):18:18 -> setState
     1:1:void setTaskId(long):26:26 -> setTaskId
 com.ldrobot.bean.DataBean -> com.ldrobot.bean.DataBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():11:11 -> <init>
     1:1:com.ldrobot.bean.AIDetectResultBean getAIdetectResult():449:449 -> getAIdetectResult
     1:1:com.ldrobot.bean.PropertyIntValueBean getAiFloorSwitch():481:481 -> getAiFloorSwitch
@@ -441,380 +416,324 @@ com.ldrobot.bean.DataBean -> com.ldrobot.bean.DataBean:
     1:1:void setWorkMode(com.ldrobot.bean.DataBean$WorkModeBean):421:421 -> setWorkMode
     1:1:void setWorkstationType(com.ldrobot.bean.DataBean$WorkstationTypeBean):1113:1113 -> setWorkstationType
 com.ldrobot.bean.DataBean$AreaInfoArrayBean -> com.ldrobot.bean.DataBean$AreaInfoArrayBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():654:654 -> <init>
     1:1:long getTime():664:664 -> getTime
     1:1:java.util.List getValue():672:672 -> getValue
     1:1:void setTime(long):668:668 -> setTime
     1:1:void setValue(java.util.List):676:676 -> setValue
 com.ldrobot.bean.DataBean$AreaInfoBean -> com.ldrobot.bean.DataBean$AreaInfoBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1774:1774 -> <init>
     1:1:long getTime():1779:1779 -> getTime
     1:1:java.lang.String getValue():1787:1787 -> getValue
     1:1:void setTime(long):1783:1783 -> setTime
     1:1:void setValue(java.lang.String):1791:1791 -> setValue
 com.ldrobot.bean.DataBean$BatteryStateBean -> com.ldrobot.bean.DataBean$BatteryStateBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1358:1358 -> <init>
     1:1:long getTime():1368:1368 -> getTime
     1:1:int getValue():1376:1376 -> getValue
     1:1:void setTime(long):1372:1372 -> setTime
     1:1:void setValue(int):1380:1380 -> setValue
 com.ldrobot.bean.DataBean$CleanAreasBean -> com.ldrobot.bean.DataBean$CleanAreasBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1254:1254 -> <init>
     1:1:long getTime():1264:1264 -> getTime
     1:1:int getValue():1272:1272 -> getValue
     1:1:void setTime(long):1268:1268 -> setTime
     1:1:void setValue(int):1276:1276 -> setValue
 com.ldrobot.bean.DataBean$CleanCountBean -> com.ldrobot.bean.DataBean$CleanCountBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1176:1176 -> <init>
     1:1:long getTime():1186:1186 -> getTime
     1:1:int getValue():1194:1194 -> getValue
     1:1:void setTime(long):1190:1190 -> setTime
     1:1:void setValue(int):1198:1198 -> setValue
 com.ldrobot.bean.DataBean$CleanRunTimeBean -> com.ldrobot.bean.DataBean$CleanRunTimeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():795:795 -> <init>
     1:1:long getTime():805:805 -> getTime
     1:1:int getValue():813:813 -> getValue
     1:1:void setTime(long):809:809 -> setTime
     1:1:void setValue(int):817:817 -> setValue
 com.ldrobot.bean.DataBean$CountDownBean -> com.ldrobot.bean.DataBean$CountDownBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():714:714 -> <init>
     1:1:long getTime():724:724 -> getTime
     1:1:com.ldrobot.bean.DataBean$CountDownBean$ValueBeanX getValue():732:732 -> getValue
     1:1:void setTime(long):728:728 -> setTime
     1:1:void setValue(com.ldrobot.bean.DataBean$CountDownBean$ValueBeanX):736:736 -> setValue
 com.ldrobot.bean.DataBean$CountDownBean$ValueBeanX -> com.ldrobot.bean.DataBean$CountDownBean$ValueBeanX:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():739:739 -> <init>
 com.ldrobot.bean.DataBean$CountDownListBean -> com.ldrobot.bean.DataBean$CountDownListBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():520:520 -> <init>
     1:1:long getTime():530:530 -> getTime
     1:1:com.ldrobot.bean.DataBean$CountDownListBean$ValueBean getValue():538:538 -> getValue
     1:1:void setTime(long):534:534 -> setTime
     1:1:void setValue(com.ldrobot.bean.DataBean$CountDownListBean$ValueBean):542:542 -> setValue
 com.ldrobot.bean.DataBean$CountDownListBean$ValueBean -> com.ldrobot.bean.DataBean$CountDownListBean$ValueBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():545:545 -> <init>
 com.ldrobot.bean.DataBean$CurPathBean -> com.ldrobot.bean.DataBean$CurPathBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():981:981 -> <init>
     1:1:long getTime():991:991 -> getTime
     1:1:java.util.List getValue():999:999 -> getValue
     1:1:void setTime(long):995:995 -> setTime
     1:1:void setValue(java.util.List):1003:1003 -> setValue
 com.ldrobot.bean.DataBean$DevMapSendBean -> com.ldrobot.bean.DataBean$DevMapSendBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():627:627 -> <init>
     1:1:long getTime():637:637 -> getTime
     1:1:java.util.List getValue():645:645 -> getValue
     1:1:void setTime(long):641:641 -> setTime
     1:1:void setValue(java.util.List):649:649 -> setValue
 com.ldrobot.bean.DataBean$DustFreqBean -> com.ldrobot.bean.DataBean$DustFreqBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1116:1116 -> <init>
     1:1:long getTime():1126:1126 -> getTime
     1:1:int getValue():1134:1134 -> getValue
     1:1:void setTime(long):1130:1130 -> setTime
     1:1:void setValue(int):1138:1138 -> setValue
 com.ldrobot.bean.DataBean$FilterTimeBean -> com.ldrobot.bean.DataBean$FilterTimeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1410:1410 -> <init>
     1:1:long getTime():1420:1420 -> getTime
     1:1:int getValue():1428:1428 -> getValue
     1:1:void setTime(long):1424:1424 -> setTime
     1:1:void setValue(int):1432:1432 -> setValue
 com.ldrobot.bean.DataBean$ForbidModeBean -> com.ldrobot.bean.DataBean$ForbidModeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():925:925 -> <init>
     1:1:long getTime():935:935 -> getTime
     1:1:int getValue():943:943 -> getValue
     1:1:void setTime(long):939:939 -> setTime
     1:1:void setValue(int):947:947 -> setValue
 com.ldrobot.bean.DataBean$GitCntBean -> com.ldrobot.bean.DataBean$GitCntBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1696:1696 -> <init>
     1:1:long getTime():1706:1706 -> getTime
     1:1:int getValue():1714:1714 -> getValue
     1:1:void setTime(long):1710:1710 -> setTime
     1:1:void setValue(int):1718:1718 -> setValue
 com.ldrobot.bean.DataBean$HeartbeatBean -> com.ldrobot.bean.DataBean$HeartbeatBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():847:847 -> <init>
     1:1:long getTime():857:857 -> getTime
     1:1:int getValue():865:865 -> getValue
     1:1:void setTime(long):861:861 -> setTime
     1:1:void setValue(int):869:869 -> setValue
 com.ldrobot.bean.DataBean$HisPathBean -> com.ldrobot.bean.DataBean$HisPathBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1007:1007 -> <init>
     1:1:long getTime():1017:1017 -> getTime
     1:1:java.util.List getValue():1025:1025 -> getValue
     1:1:void setTime(long):1021:1021 -> setTime
     1:1:void setValue(java.util.List):1029:1029 -> setValue
 com.ldrobot.bean.DataBean$ImuCalibrationStatusBean -> com.ldrobot.bean.DataBean$ImuCalibrationStatusBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1202:1202 -> <init>
     1:1:long getTime():1212:1212 -> getTime
     1:1:int getValue():1220:1220 -> getValue
     1:1:void setTime(long):1216:1216 -> setTime
     1:1:void setValue(int):1224:1224 -> setValue
 com.ldrobot.bean.DataBean$IsInForbidModeBean -> com.ldrobot.bean.DataBean$IsInForbidModeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1436:1436 -> <init>
     1:1:long getTime():1446:1446 -> getTime
     1:1:int getValue():1454:1454 -> getValue
     1:1:void setTime(long):1450:1450 -> setTime
     1:1:void setValue(int):1458:1458 -> setValue
 com.ldrobot.bean.DataBean$LedSwitchBean -> com.ldrobot.bean.DataBean$LedSwitchBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():575:575 -> <init>
     1:1:long getTime():585:585 -> getTime
     1:1:int getValue():593:593 -> getValue
     1:1:void setTime(long):589:589 -> setTime
     1:1:void setValue(int):597:597 -> setValue
 com.ldrobot.bean.DataBean$LocalTimerBean -> com.ldrobot.bean.DataBean$LocalTimerBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1462:1462 -> <init>
     1:1:long getTime():1472:1472 -> getTime
     1:1:java.util.List getValue():1480:1480 -> getValue
     1:1:void setTime(long):1476:1476 -> setTime
     1:1:void setValue(java.util.List):1484:1484 -> setValue
 com.ldrobot.bean.DataBean$MACAddressBean -> com.ldrobot.bean.DataBean$MACAddressBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1722:1722 -> <init>
     1:1:long getTime():1732:1732 -> getTime
     1:1:java.lang.String getValue():1740:1740 -> getValue
     1:1:void setTime(long):1736:1736 -> setTime
     1:1:void setValue(java.lang.String):1744:1744 -> setValue
 com.ldrobot.bean.DataBean$MainBrushTimeBean -> com.ldrobot.bean.DataBean$MainBrushTimeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1332:1332 -> <init>
     1:1:long getTime():1342:1342 -> getTime
     1:1:int getValue():1350:1350 -> getValue
     1:1:void setTime(long):1346:1346 -> setTime
     1:1:void setValue(int):1354:1354 -> setValue
 com.ldrobot.bean.DataBean$McuVersionBean -> com.ldrobot.bean.DataBean$McuVersionBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1748:1748 -> <init>
     1:1:long getTime():1758:1758 -> getTime
     1:1:java.lang.String getValue():1766:1766 -> getValue
     1:1:void setTime(long):1762:1762 -> setTime
     1:1:void setValue(java.lang.String):1770:1770 -> setValue
 com.ldrobot.bean.DataBean$MopBean -> com.ldrobot.bean.DataBean$MopBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():769:769 -> <init>
     1:1:long getTime():779:779 -> getTime
     1:1:int getValue():787:787 -> getValue
     1:1:void setTime(long):783:783 -> setTime
     1:1:void setValue(int):791:791 -> setValue
 com.ldrobot.bean.DataBean$MultiMapData0Bean -> com.ldrobot.bean.DataBean$MultiMapData0Bean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1821:1821 -> <init>
     1:1:long getTime():1826:1826 -> getTime
     1:1:java.util.List getValue():1834:1834 -> getValue
     1:1:void setTime(long):1830:1830 -> setTime
     1:1:void setValue(java.util.List):1838:1838 -> setValue
 com.ldrobot.bean.DataBean$MultiMapData1Bean -> com.ldrobot.bean.DataBean$MultiMapData1Bean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1842:1842 -> <init>
     1:1:long getTime():1847:1847 -> getTime
     1:1:java.util.List getValue():1855:1855 -> getValue
     1:1:void setTime(long):1851:1851 -> setTime
     1:1:void setValue(java.util.List):1859:1859 -> setValue
 com.ldrobot.bean.DataBean$MultiMapData2Bean -> com.ldrobot.bean.DataBean$MultiMapData2Bean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1862:1862 -> <init>
     1:1:long getTime():1867:1867 -> getTime
     1:1:java.util.List getValue():1875:1875 -> getValue
     1:1:void setTime(long):1871:1871 -> setTime
     1:1:void setValue(java.util.List):1879:1879 -> setValue
 com.ldrobot.bean.DataBean$MultiMapsInfoBean -> com.ldrobot.bean.DataBean$MultiMapsInfoBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1041:1041 -> <init>
     1:1:long getTime():1046:1046 -> getTime
     1:1:java.util.List getValue():1054:1054 -> getValue
     1:1:void setTime(long):1050:1050 -> setTime
     1:1:void setValue(java.util.List):1058:1058 -> setValue
 com.ldrobot.bean.DataBean$NicknameBean -> com.ldrobot.bean.DataBean$NicknameBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():951:951 -> <init>
     1:1:long getTime():961:961 -> getTime
     1:1:java.lang.String getValue():969:969 -> getValue
     1:1:void setTime(long):965:965 -> setTime
     1:1:void setValue(java.lang.String):973:973 -> setValue
 com.ldrobot.bean.DataBean$PathSendBean -> com.ldrobot.bean.DataBean$PathSendBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():688:688 -> <init>
     1:1:long getTime():698:698 -> getTime
     1:1:java.util.List getValue():706:706 -> getValue
     1:1:void setTime(long):702:702 -> setTime
     1:1:void setValue(java.util.List):710:710 -> setValue
 com.ldrobot.bean.DataBean$RobotErrorBean -> com.ldrobot.bean.DataBean$RobotErrorBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1228:1228 -> <init>
     1:1:long getTime():1238:1238 -> getTime
     1:1:int getValue():1246:1246 -> getValue
     1:1:void setTime(long):1242:1242 -> setTime
     1:1:void setValue(int):1250:1250 -> setValue
 com.ldrobot.bean.DataBean$RobotPosBean -> com.ldrobot.bean.DataBean$RobotPosBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():601:601 -> <init>
     1:1:long getTime():611:611 -> getTime
     1:1:java.util.List getValue():619:619 -> getValue
     1:1:void setTime(long):615:615 -> setTime
     1:1:void setValue(java.util.List):623:623 -> setValue
 com.ldrobot.bean.DataBean$RouteBean -> com.ldrobot.bean.DataBean$RouteBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1514:1514 -> <init>
     1:1:long getTime():1524:1524 -> getTime
     1:1:java.lang.String getValue():1532:1532 -> getValue
     1:1:void setTime(long):1528:1528 -> setTime
     1:1:void setValue(java.lang.String):1536:1536 -> setValue
 com.ldrobot.bean.DataBean$RunTimesBean -> com.ldrobot.bean.DataBean$RunTimesBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():821:821 -> <init>
     1:1:long getTime():831:831 -> getTime
     1:1:int getValue():839:839 -> getValue
     1:1:void setTime(long):835:835 -> setTime
     1:1:void setValue(int):843:843 -> setValue
 com.ldrobot.bean.DataBean$SensorTimeBean -> com.ldrobot.bean.DataBean$SensorTimeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():899:899 -> <init>
     1:1:long getTime():909:909 -> getTime
     1:1:int getValue():917:917 -> getValue
     1:1:void setTime(long):913:913 -> setTime
     1:1:void setValue(int):921:921 -> setValue
 com.ldrobot.bean.DataBean$SideBrushTimeBean -> com.ldrobot.bean.DataBean$SideBrushTimeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1384:1384 -> <init>
     1:1:long getTime():1394:1394 -> getTime
     1:1:int getValue():1402:1402 -> getValue
     1:1:void setTime(long):1398:1398 -> setTime
     1:1:void setValue(int):1406:1406 -> setValue
 com.ldrobot.bean.DataBean$SubModeBean -> com.ldrobot.bean.DataBean$SubModeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:8:void <init>():1280:1287 -> <init>
     1:1:long getTime():1290:1290 -> getTime
     1:1:int getValue():1298:1298 -> getValue
     1:1:void setTime(long):1294:1294 -> setTime
     1:1:void setValue(int):1302:1302 -> setValue
 com.ldrobot.bean.DataBean$TimeTacticsBean -> com.ldrobot.bean.DataBean$TimeTacticsBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():873:873 -> <init>
     1:1:long getTime():883:883 -> getTime
     1:1:java.lang.String getValue():891:891 -> getValue
     1:1:void setTime(long):887:887 -> setTime
     1:1:void setValue(java.lang.String):895:895 -> setValue
 com.ldrobot.bean.DataBean$TotalCleanAreasBean -> com.ldrobot.bean.DataBean$TotalCleanAreasBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1488:1488 -> <init>
     1:1:long getTime():1498:1498 -> getTime
     1:1:int getValue():1506:1506 -> getValue
     1:1:void setTime(long):1502:1502 -> setTime
     1:1:void setValue(int):1510:1510 -> setValue
 com.ldrobot.bean.DataBean$TotalCleanTimesBean -> com.ldrobot.bean.DataBean$TotalCleanTimesBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():549:549 -> <init>
     1:1:long getTime():559:559 -> getTime
     1:1:int getValue():567:567 -> getValue
     1:1:void setTime(long):563:563 -> setTime
     1:1:void setValue(int):571:571 -> setValue
 com.ldrobot.bean.DataBean$UseAutoAreaValueBean -> com.ldrobot.bean.DataBean$UseAutoAreaValueBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1907:1907 -> <init>
     1:1:long getTime():1917:1917 -> getTime
     1:1:int getValue():1925:1925 -> getValue
     1:1:void setTime(long):1921:1921 -> setTime
     1:1:void setValue(int):1929:1929 -> setValue
 com.ldrobot.bean.DataBean$VolBean -> com.ldrobot.bean.DataBean$VolBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1150:1150 -> <init>
     1:1:long getTime():1160:1160 -> getTime
     1:1:int getValue():1168:1168 -> getValue
     1:1:void setTime(long):1164:1164 -> setTime
     1:1:void setValue(int):1172:1172 -> setValue
 com.ldrobot.bean.DataBean$WIFIAPBSSIDBean -> com.ldrobot.bean.DataBean$WIFIAPBSSIDBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1540:1540 -> <init>
     1:1:long getTime():1550:1550 -> getTime
     1:1:java.lang.String getValue():1558:1558 -> getValue
     1:1:void setTime(long):1554:1554 -> setTime
     1:1:void setValue(java.lang.String):1562:1562 -> setValue
 com.ldrobot.bean.DataBean$WaterBean -> com.ldrobot.bean.DataBean$WaterBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():743:743 -> <init>
     1:1:long getTime():753:753 -> getTime
     1:1:int getValue():761:761 -> getValue
     1:1:void setTime(long):757:757 -> setTime
     1:1:void setValue(int):765:765 -> setValue
 com.ldrobot.bean.DataBean$WiFIBandBean -> com.ldrobot.bean.DataBean$WiFIBandBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1644:1644 -> <init>
     1:1:long getTime():1654:1654 -> getTime
     1:1:java.lang.String getValue():1662:1662 -> getValue
     1:1:void setTime(long):1658:1658 -> setTime
     1:1:void setValue(java.lang.String):1666:1666 -> setValue
 com.ldrobot.bean.DataBean$WiFIChannelBean -> com.ldrobot.bean.DataBean$WiFIChannelBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1592:1592 -> <init>
     1:1:long getTime():1602:1602 -> getTime
     1:1:int getValue():1610:1610 -> getValue
     1:1:void setTime(long):1606:1606 -> setTime
     1:1:void setValue(int):1614:1614 -> setValue
 com.ldrobot.bean.DataBean$WiFIIPBean -> com.ldrobot.bean.DataBean$WiFIIPBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1670:1670 -> <init>
     1:1:long getTime():1680:1680 -> getTime
     1:1:java.lang.String getValue():1688:1688 -> getValue
     1:1:void setTime(long):1684:1684 -> setTime
     1:1:void setValue(java.lang.String):1692:1692 -> setValue
 com.ldrobot.bean.DataBean$WiFIRSSIBean -> com.ldrobot.bean.DataBean$WiFIRSSIBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1566:1566 -> <init>
     1:1:long getTime():1576:1576 -> getTime
     1:1:int getValue():1584:1584 -> getValue
     1:1:void setTime(long):1580:1580 -> setTime
     1:1:void setValue(int):1588:1588 -> setValue
 com.ldrobot.bean.DataBean$WiFISNRBean -> com.ldrobot.bean.DataBean$WiFISNRBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1618:1618 -> <init>
     1:1:long getTime():1628:1628 -> getTime
     1:1:int getValue():1636:1636 -> getValue
     1:1:void setTime(long):1632:1632 -> setTime
     1:1:void setValue(int):1640:1640 -> setValue
 com.ldrobot.bean.DataBean$WindPowerBean -> com.ldrobot.bean.DataBean$WindPowerBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1306:1306 -> <init>
     1:1:long getTime():1316:1316 -> getTime
     1:1:int getValue():1324:1324 -> getValue
     1:1:void setTime(long):1320:1320 -> setTime
     1:1:void setValue(int):1328:1328 -> setValue
 com.ldrobot.bean.DataBean$WorkModeBean -> com.ldrobot.bean.DataBean$WorkModeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1795:1795 -> <init>
     1:1:long getTime():1805:1805 -> getTime
     1:1:int getValue():1813:1813 -> getValue
     1:1:void setTime(long):1809:1809 -> setTime
     1:1:void setValue(int):1817:1817 -> setValue
 com.ldrobot.bean.DataBean$WorkstationTypeBean -> com.ldrobot.bean.DataBean$WorkstationTypeBean:
-# {"id":"sourceFile","fileName":"DataBean.java"}
     1:1:void <init>():1082:1082 -> <init>
     1:1:long getTime():1092:1092 -> getTime
     1:1:int getValue():1100:1100 -> getValue
     1:1:void setTime(long):1096:1096 -> setTime
     1:1:void setValue(int):1104:1104 -> setValue
 com.ldrobot.bean.Device -> com.ldrobot.bean.Device:
-# {"id":"sourceFile","fileName":"Device.java"}
     1:1:void <init>():3:3 -> <init>
 com.ldrobot.bean.DeviceBean -> com.ldrobot.bean.DeviceBean:
-# {"id":"sourceFile","fileName":"DeviceBean.java"}
     1:1:void <init>():7:7 -> <init>
     1:1:java.lang.String getAppointStr():233:233 -> getAppointStr
     1:1:java.util.List getDataList():177:177 -> getDataList
@@ -862,7 +781,6 @@ com.ldrobot.bean.DeviceBean -> com.ldrobot.bean.DeviceBean:
     1:1:void setVolume(int):229:229 -> setVolume
     1:1:java.lang.String toString():142:142 -> toString
 com.ldrobot.bean.DeviceBindBean -> com.ldrobot.bean.DeviceBindBean:
-# {"id":"sourceFile","fileName":"DeviceBindBean.java"}
     1:1:void <init>():11:11 -> <init>
     1:1:java.util.List getData():50:50 -> getData
     1:1:int getPageNo():34:34 -> getPageNo
@@ -873,7 +791,6 @@ com.ldrobot.bean.DeviceBindBean -> com.ldrobot.bean.DeviceBindBean:
     1:1:void setPageSize(int):46:46 -> setPageSize
     1:1:void setTotal(int):30:30 -> setTotal
 com.ldrobot.bean.DeviceBindBean$DataBean -> com.ldrobot.bean.DeviceBindBean$DataBean:
-# {"id":"sourceFile","fileName":"DeviceBindBean.java"}
     1:1:void <init>():57:57 -> <init>
     1:1:java.lang.String getAvatar():244:244 -> getAvatar
     1:1:java.lang.String getCategoryImage():132:132 -> getCategoryImage
@@ -916,7 +833,6 @@ com.ldrobot.bean.DeviceBindBean$DataBean -> com.ldrobot.bean.DeviceBindBean$Data
     1:1:void setThingType(java.lang.String):232:232 -> setThingType
     1:1:void setUserName(java.lang.String):104:104 -> setUserName
 com.ldrobot.bean.DeviceMessageBean -> com.ldrobot.bean.DeviceMessageBean:
-# {"id":"sourceFile","fileName":"DeviceMessageBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.lang.String getDevId():35:35 -> getDevId
     1:1:java.lang.String getDeviceNickname():19:19 -> getDeviceNickname
@@ -929,7 +845,6 @@ com.ldrobot.bean.DeviceMessageBean -> com.ldrobot.bean.DeviceMessageBean:
     1:1:void setIconUrl(java.lang.String):55:55 -> setIconUrl
     1:1:void setMsgDeviceBeanList(java.util.List):47:47 -> setMsgDeviceBeanList
 com.ldrobot.bean.FeedbackDataBean -> com.ldrobot.bean.FeedbackDataBean:
-# {"id":"sourceFile","fileName":"FeedbackDataBean.java"}
     1:1:void <clinit>():88:88 -> <clinit>
     1:1:void <init>():59:59 -> <init>
     2:24:void <init>(android.os.Parcel):63:85 -> <init>
@@ -979,14 +894,12 @@ com.ldrobot.bean.FeedbackDataBean -> com.ldrobot.bean.FeedbackDataBean:
     1:1:void setUid(java.lang.String):153:153 -> setUid
     1:22:void writeToParcel(android.os.Parcel,int):283:304 -> writeToParcel
 com.ldrobot.bean.FeedbackDataBean$1 -> com.ldrobot.bean.FeedbackDataBean$1:
-# {"id":"sourceFile","fileName":"FeedbackDataBean.java"}
     1:1:void <init>():88:88 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):88:88 -> createFromParcel
     2:2:com.ldrobot.bean.FeedbackDataBean createFromParcel(android.os.Parcel):91:91 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):88:88 -> newArray
     2:2:com.ldrobot.bean.FeedbackDataBean[] newArray(int):96:96 -> newArray
 com.ldrobot.bean.FeedbackListBean -> com.ldrobot.bean.FeedbackListBean:
-# {"id":"sourceFile","fileName":"FeedbackListBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.List getData():38:38 -> getData
     1:1:int getPageSize():30:30 -> getPageSize
@@ -995,7 +908,6 @@ com.ldrobot.bean.FeedbackListBean -> com.ldrobot.bean.FeedbackListBean:
     1:1:void setPageSize(int):34:34 -> setPageSize
     1:1:void setTotal(int):26:26 -> setTotal
 com.ldrobot.bean.FeedbackMessageBean -> com.ldrobot.bean.FeedbackMessageBean:
-# {"id":"sourceFile","fileName":"FeedbackMessageBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.lang.String getAppVersion():72:72 -> getAppVersion
     1:1:java.lang.String getContact():136:136 -> getContact
@@ -1046,7 +958,6 @@ com.ldrobot.bean.FeedbackMessageBean -> com.ldrobot.bean.FeedbackMessageBean:
     1:1:void setUid(java.lang.String):116:116 -> setUid
     1:1:void setUserNickName(java.lang.String):156:156 -> setUserNickName
 com.ldrobot.bean.FeedbackMessageBean$FeedBackReplyListBean -> com.ldrobot.bean.FeedbackMessageBean$FeedBackReplyListBean:
-# {"id":"sourceFile","fileName":"FeedbackMessageBean.java"}
     1:1:void <init>():255:255 -> <init>
     1:1:java.lang.String getAppVersion():297:297 -> getAppVersion
     1:1:java.lang.String getContent():321:321 -> getContent
@@ -1069,7 +980,6 @@ com.ldrobot.bean.FeedbackMessageBean$FeedBackReplyListBean -> com.ldrobot.bean.F
     1:1:void setType(int):309:309 -> setType
     1:1:void setUid(java.lang.String):333:333 -> setUid
 com.ldrobot.bean.FirmwareUpdateBean -> com.ldrobot.bean.FirmwareUpdateBean:
-# {"id":"sourceFile","fileName":"FirmwareUpdateBean.java"}
     1:1:void <init>():11:11 -> <init>
     1:1:java.lang.String getCurrentVersion():96:96 -> getCurrentVersion
     1:1:java.lang.String getDesc():104:104 -> getDesc
@@ -1095,7 +1005,6 @@ com.ldrobot.bean.FirmwareUpdateBean -> com.ldrobot.bean.FirmwareUpdateBean:
     1:1:void setVersion(java.lang.String):76:76 -> setVersion
     1:1:java.lang.String toString():129:129 -> toString
 com.ldrobot.bean.FirmwareVersionBean -> com.ldrobot.bean.FirmwareVersionBean:
-# {"id":"sourceFile","fileName":"FirmwareVersionBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:long getActiveTime():54:54 -> getActiveTime
     1:1:java.lang.String getDeviceKey():62:62 -> getDeviceKey
@@ -1129,24 +1038,19 @@ com.ldrobot.bean.FirmwareVersionBean -> com.ldrobot.bean.FirmwareVersionBean:
     1:1:void setStatus(int):170:170 -> setStatus
     1:1:void setStatusLast(int):74:74 -> setStatusLast
     1:1:void setThingType(java.lang.String):138:138 -> setThingType
-com.ldrobot.bean.FloorType -> com.ldrobot.bean.FloorType:
-# {"id":"sourceFile","fileName":"FloorType.java"}
 com.ldrobot.bean.GeneralGuideBean -> com.ldrobot.bean.GeneralGuideBean:
-# {"id":"sourceFile","fileName":"GeneralGuideBean.java"}
     1:1:void <init>():9:9 -> <init>
     1:1:java.lang.String getCountry():20:20 -> getCountry
     1:1:java.lang.String getUrl():28:28 -> getUrl
     1:1:void setCountry(java.lang.String):24:24 -> setCountry
     1:1:void setUrl(java.lang.String):32:32 -> setUrl
 com.ldrobot.bean.GetStsParams -> com.ldrobot.bean.GetStsParams:
-# {"id":"sourceFile","fileName":"GetStsParams.java"}
     1:3:void <init>(java.lang.String,java.lang.String):12:14 -> <init>
     1:1:java.lang.String getDeviceName():18:18 -> getDeviceName
     1:1:java.lang.String getDeviceSecret():26:26 -> getDeviceSecret
     1:1:void setDeviceName(java.lang.String):22:22 -> setDeviceName
     1:1:void setDeviceSecret(java.lang.String):30:30 -> setDeviceSecret
 com.ldrobot.bean.GetVerificationCodeParams -> com.ldrobot.bean.GetVerificationCodeParams:
-# {"id":"sourceFile","fileName":"GetVerificationCodeParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAreaCode():30:30 -> getAreaCode
     1:1:int getType():22:22 -> getType
@@ -1155,10 +1059,8 @@ com.ldrobot.bean.GetVerificationCodeParams -> com.ldrobot.bean.GetVerificationCo
     1:1:void setType(int):26:26 -> setType
     1:1:void setUsername(java.lang.String):18:18 -> setUsername
 com.ldrobot.bean.LDAppCode -> com.ldrobot.bean.LDAppCode:
-# {"id":"sourceFile","fileName":"LDAppCode.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.LDArea -> com.ldrobot.bean.LDArea:
-# {"id":"sourceFile","fileName":"LDArea.java"}
     1:1:void <clinit>():493:493 -> <clinit>
     1:1:void <init>():76:76 -> <init>
     2:37:void <init>():31:66 -> <init>
@@ -1220,17 +1122,14 @@ com.ldrobot.bean.LDArea -> com.ldrobot.bean.LDArea:
     1:9:void vertexsToPointArrayList(com.ldrobot.bean.LDSweepMap,float,android.graphics.PointF):214:222 -> vertexsToPointArrayList
     1:18:void writeToParcel(android.os.Parcel,int):452:469 -> writeToParcel
 com.ldrobot.bean.LDArea$1 -> com.ldrobot.bean.LDArea$1:
-# {"id":"sourceFile","fileName":"LDArea.java"}
     1:1:void <init>():493:493 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):493:493 -> createFromParcel
     2:2:com.ldrobot.bean.LDArea createFromParcel(android.os.Parcel):496:496 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):493:493 -> newArray
     2:2:com.ldrobot.bean.LDArea[] newArray(int):501:501 -> newArray
 com.ldrobot.bean.LDCode -> com.ldrobot.bean.LDCode:
-# {"id":"sourceFile","fileName":"LDCode.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.LDMap -> com.ldrobot.bean.LDMap:
-# {"id":"sourceFile","fileName":"LDMap.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:int getAutoAreaId():92:92 -> getAutoAreaId
     1:1:int getBase64_len():36:36 -> getBase64_len
@@ -1264,7 +1163,6 @@ com.ldrobot.bean.LDMap -> com.ldrobot.bean.LDMap:
     1:1:void setX_min(float):48:48 -> setX_min
     1:1:void setY_min(float):56:56 -> setY_min
 com.ldrobot.bean.LDMapBean -> com.ldrobot.bean.LDMapBean:
-# {"id":"sourceFile","fileName":"LDMapBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:int getCode():15:15 -> getCode
     1:1:java.lang.String getData():31:31 -> getData
@@ -1275,7 +1173,6 @@ com.ldrobot.bean.LDMapBean -> com.ldrobot.bean.LDMapBean:
     1:1:void setMapData(byte[]):27:27 -> setMapData
     1:1:void setMsg(java.lang.String):43:43 -> setMsg
 com.ldrobot.bean.LDObstacle -> com.ldrobot.bean.LDObstacle:
-# {"id":"sourceFile","fileName":"LDObstacle.java"}
     1:1:void <clinit>():167:167 -> <clinit>
     1:1:void <init>():119:119 -> <init>
     2:15:void <init>(android.os.Parcel):151:164 -> <init>
@@ -1305,14 +1202,12 @@ com.ldrobot.bean.LDObstacle -> com.ldrobot.bean.LDObstacle:
     1:1:void setRectWidth(float):84:84 -> setRectWidth
     1:12:void writeToParcel(android.os.Parcel,int):137:148 -> writeToParcel
 com.ldrobot.bean.LDObstacle$1 -> com.ldrobot.bean.LDObstacle$1:
-# {"id":"sourceFile","fileName":"LDObstacle.java"}
     1:1:void <init>():167:167 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):167:167 -> createFromParcel
     2:2:com.ldrobot.bean.LDObstacle createFromParcel(android.os.Parcel):170:170 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):167:167 -> newArray
     2:2:com.ldrobot.bean.LDObstacle[] newArray(int):175:175 -> newArray
 com.ldrobot.bean.LDRoom -> com.ldrobot.bean.LDRoom:
-# {"id":"sourceFile","fileName":"LDRoom.java"}
     1:1:void <clinit>():292:292 -> <clinit>
     1:1:void <init>():47:47 -> <init>
     2:23:void <init>():23:44 -> <init>
@@ -1367,14 +1262,12 @@ com.ldrobot.bean.LDRoom -> com.ldrobot.bean.LDRoom:
     1:14:java.lang.String toString():306:319 -> toString
     1:23:void writeToParcel(android.os.Parcel,int):240:262 -> writeToParcel
 com.ldrobot.bean.LDRoom$1 -> com.ldrobot.bean.LDRoom$1:
-# {"id":"sourceFile","fileName":"LDRoom.java"}
     1:1:void <init>():292:292 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):292:292 -> createFromParcel
     2:2:com.ldrobot.bean.LDRoom createFromParcel(android.os.Parcel):295:295 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):292:292 -> newArray
     2:2:com.ldrobot.bean.LDRoom[] newArray(int):300:300 -> newArray
 com.ldrobot.bean.LDSweepMap -> com.ldrobot.bean.LDSweepMap:
-# {"id":"sourceFile","fileName":"LDSweepMap.java"}
     1:1:void <clinit>():485:485 -> <clinit>
     1:1:void <init>():61:61 -> <init>
     2:41:void <init>(android.os.Parcel):443:482 -> <init>
@@ -1454,21 +1347,18 @@ com.ldrobot.bean.LDSweepMap -> com.ldrobot.bean.LDSweepMap:
     1:15:java.lang.String toString():307:321 -> toString
     1:39:void writeToParcel(android.os.Parcel,int):402:440 -> writeToParcel
 com.ldrobot.bean.LDSweepMap$1 -> com.ldrobot.bean.LDSweepMap$1:
-# {"id":"sourceFile","fileName":"LDSweepMap.java"}
     1:1:void <init>():485:485 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):485:485 -> createFromParcel
     2:2:com.ldrobot.bean.LDSweepMap createFromParcel(android.os.Parcel):488:488 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):485:485 -> newArray
     2:2:com.ldrobot.bean.LDSweepMap[] newArray(int):493:493 -> newArray
 com.ldrobot.bean.LdAreaBean -> com.ldrobot.bean.LdAreaBean:
-# {"id":"sourceFile","fileName":"LdAreaBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.List getList():28:28 -> getList
     1:1:java.lang.String getSearchName():20:20 -> getSearchName
     1:1:void setList(java.util.List):32:32 -> setList
     1:1:void setSearchName(java.lang.String):24:24 -> setSearchName
 com.ldrobot.bean.LdAreaBean$ListBean -> com.ldrobot.bean.LdAreaBean$ListBean:
-# {"id":"sourceFile","fileName":"LdAreaBean.java"}
     1:1:void <init>():35:35 -> <init>
     1:1:java.lang.String getCnName():59:59 -> getCnName
     1:1:java.lang.String getCountryCode():75:75 -> getCountryCode
@@ -1481,12 +1371,10 @@ com.ldrobot.bean.LdAreaBean$ListBean -> com.ldrobot.bean.LdAreaBean$ListBean:
     1:1:void setSortName(java.lang.String):71:71 -> setSortName
     1:1:void setTimeZones(java.lang.String):87:87 -> setTimeZones
 com.ldrobot.bean.LocalMultipleMapInfoBean -> com.ldrobot.bean.LocalMultipleMapInfoBean:
-# {"id":"sourceFile","fileName":"LocalMultipleMapInfoBean.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.List getMaps():14:14 -> getMaps
     1:1:void setMaps(java.util.List):18:18 -> setMaps
 com.ldrobot.bean.LocalMultipleMapInfoBean$MapsBean -> com.ldrobot.bean.LocalMultipleMapInfoBean$MapsBean:
-# {"id":"sourceFile","fileName":"LocalMultipleMapInfoBean.java"}
     1:1:void <init>():21:21 -> <init>
     1:1:long getMapId():39:39 -> getMapId
     1:1:java.lang.String getRecord():47:47 -> getRecord
@@ -1501,7 +1389,6 @@ com.ldrobot.bean.LocalMultipleMapInfoBean$MapsBean -> com.ldrobot.bean.LocalMult
     1:1:void setUsageCounter(int):75:75 -> setUsageCounter
     1:1:void setUsageTime(int):83:83 -> setUsageTime
 com.ldrobot.bean.LogFileBean -> com.ldrobot.bean.LogFileBean:
-# {"id":"sourceFile","fileName":"LogFileBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getFileName():23:23 -> getFileName
     1:1:java.lang.String getFilePath():31:31 -> getFilePath
@@ -1510,7 +1397,6 @@ com.ldrobot.bean.LogFileBean -> com.ldrobot.bean.LogFileBean:
     1:1:void setFilePath(java.lang.String):35:35 -> setFilePath
     1:1:void setSelect(boolean):19:19 -> setSelect
 com.ldrobot.bean.LoginParams -> com.ldrobot.bean.LoginParams:
-# {"id":"sourceFile","fileName":"LoginParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAppVersion():48:48 -> getAppVersion
     1:1:java.lang.String getAreaCode():16:16 -> getAreaCode
@@ -1523,13 +1409,10 @@ com.ldrobot.bean.LoginParams -> com.ldrobot.bean.LoginParams:
     1:1:void setPassword(java.lang.String):28:28 -> setPassword
     1:1:void setUserName(java.lang.String):44:44 -> setUserName
 com.ldrobot.bean.MapDataType -> com.ldrobot.bean.MapDataType:
-# {"id":"sourceFile","fileName":"MapDataType.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.MapUiStyle -> com.ldrobot.bean.MapUiStyle:
-# {"id":"sourceFile","fileName":"MapUiStyle.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.MsgDeviceBean -> com.ldrobot.bean.MsgDeviceBean:
-# {"id":"sourceFile","fileName":"MsgDeviceBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:int getBgType():204:204 -> getBgType
     1:1:java.lang.String getBody():132:132 -> getBody
@@ -1572,7 +1455,6 @@ com.ldrobot.bean.MsgDeviceBean -> com.ldrobot.bean.MsgDeviceBean:
     1:1:void setTitle(java.lang.String):128:128 -> setTitle
     1:1:void setType(java.lang.String):120:120 -> setType
 com.ldrobot.bean.MsgDeviceBean$ExtDataBean -> com.ldrobot.bean.MsgDeviceBean$ExtDataBean:
-# {"id":"sourceFile","fileName":"MsgDeviceBean.java"}
     1:1:void <init>():211:211 -> <init>
     1:1:int getCategoryId():259:259 -> getCategoryId
     1:1:java.lang.String getIcon():235:235 -> getIcon
@@ -1585,12 +1467,8 @@ com.ldrobot.bean.MsgDeviceBean$ExtDataBean -> com.ldrobot.bean.MsgDeviceBean$Ext
     1:1:void setProductKey(java.lang.String):247:247 -> setProductKey
     1:1:void setProductName(java.lang.String):255:255 -> setProductName
 com.ldrobot.bean.MyPoint -> com.ldrobot.bean.MyPoint:
-# {"id":"sourceFile","fileName":"MyPoint.java"}
     1:1:void <init>():13:13 -> <init>
-com.ldrobot.bean.ObstacleType -> com.ldrobot.bean.ObstacleType:
-# {"id":"sourceFile","fileName":"ObstacleType.java"}
 com.ldrobot.bean.PrivacyPointBean -> com.ldrobot.bean.PrivacyPointBean:
-# {"id":"sourceFile","fileName":"PrivacyPointBean.java"}
     1:1:void <clinit>():79:79 -> <clinit>
     1:1:void <init>():69:69 -> <init>
     2:6:void <init>(android.os.Parcel):72:76 -> <init>
@@ -1604,14 +1482,12 @@ com.ldrobot.bean.PrivacyPointBean -> com.ldrobot.bean.PrivacyPointBean:
     1:1:void setY(int):53:53 -> setY
     1:4:void writeToParcel(android.os.Parcel,int):63:66 -> writeToParcel
 com.ldrobot.bean.PrivacyPointBean$1 -> com.ldrobot.bean.PrivacyPointBean$1:
-# {"id":"sourceFile","fileName":"PrivacyPointBean.java"}
     1:1:void <init>():79:79 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):79:79 -> createFromParcel
     2:2:com.ldrobot.bean.PrivacyPointBean createFromParcel(android.os.Parcel):82:82 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):79:79 -> newArray
     2:2:com.ldrobot.bean.PrivacyPointBean[] newArray(int):87:87 -> newArray
 com.ldrobot.bean.ProductGuideBean -> com.ldrobot.bean.ProductGuideBean:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <clinit>():200:200 -> <clinit>
     1:1:void <init>():177:177 -> <init>
     2:6:void <init>(android.os.Parcel):193:197 -> <init>
@@ -1625,14 +1501,12 @@ com.ldrobot.bean.ProductGuideBean -> com.ldrobot.bean.ProductGuideBean:
     1:1:void setProductName(java.lang.String):32:32 -> setProductName
     1:4:void writeToParcel(android.os.Parcel,int):187:190 -> writeToParcel
 com.ldrobot.bean.ProductGuideBean$1 -> com.ldrobot.bean.ProductGuideBean$1:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <init>():200:200 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):200:200 -> createFromParcel
     2:2:com.ldrobot.bean.ProductGuideBean createFromParcel(android.os.Parcel):203:203 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):200:200 -> newArray
     2:2:com.ldrobot.bean.ProductGuideBean[] newArray(int):208:208 -> newArray
 com.ldrobot.bean.ProductGuideBean$DataBean -> com.ldrobot.bean.ProductGuideBean$DataBean:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <clinit>():163:163 -> <clinit>
     1:1:void <init>():154:154 -> <init>
     2:5:void <init>(android.os.Parcel):157:160 -> <init>
@@ -1642,14 +1516,12 @@ com.ldrobot.bean.ProductGuideBean$DataBean -> com.ldrobot.bean.ProductGuideBean$
     1:1:void setCountry(java.lang.String):73:73 -> setCountry
     1:2:void writeToParcel(android.os.Parcel,int):150:151 -> writeToParcel
 com.ldrobot.bean.ProductGuideBean$DataBean$1 -> com.ldrobot.bean.ProductGuideBean$DataBean$1:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <init>():163:163 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):163:163 -> createFromParcel
     2:2:com.ldrobot.bean.ProductGuideBean$DataBean createFromParcel(android.os.Parcel):166:166 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):163:163 -> newArray
     2:2:com.ldrobot.bean.ProductGuideBean$DataBean[] newArray(int):171:171 -> newArray
 com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean -> com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <clinit>():129:129 -> <clinit>
     1:1:void <init>():121:121 -> <init>
     2:4:void <init>(android.os.Parcel):124:126 -> <init>
@@ -1659,14 +1531,12 @@ com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean -> com.ldrobot.bean.Produ
     1:1:void setUrl(java.lang.String):106:106 -> setUrl
     1:2:void writeToParcel(android.os.Parcel,int):117:118 -> writeToParcel
 com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean$1 -> com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean$1:
-# {"id":"sourceFile","fileName":"ProductGuideBean.java"}
     1:1:void <init>():129:129 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):129:129 -> createFromParcel
     2:2:com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean createFromParcel(android.os.Parcel):132:132 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):129:129 -> newArray
     2:2:com.ldrobot.bean.ProductGuideBean$DataBean$ContentBean[] newArray(int):137:137 -> newArray
 com.ldrobot.bean.ProductListBean -> com.ldrobot.bean.ProductListBean:
-# {"id":"sourceFile","fileName":"ProductListBean.java"}
     1:1:void <clinit>():83:83 -> <clinit>
     1:1:void <init>():72:72 -> <init>
     2:7:void <init>(android.os.Parcel):75:80 -> <init>
@@ -1682,14 +1552,12 @@ com.ldrobot.bean.ProductListBean -> com.ldrobot.bean.ProductListBean:
     1:1:void setStatus(int):55:55 -> setStatus
     1:5:void writeToParcel(android.os.Parcel,int):65:69 -> writeToParcel
 com.ldrobot.bean.ProductListBean$1 -> com.ldrobot.bean.ProductListBean$1:
-# {"id":"sourceFile","fileName":"ProductListBean.java"}
     1:1:void <init>():83:83 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):83:83 -> createFromParcel
     2:2:com.ldrobot.bean.ProductListBean createFromParcel(android.os.Parcel):86:86 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):83:83 -> newArray
     2:2:com.ldrobot.bean.ProductListBean[] newArray(int):91:91 -> newArray
 com.ldrobot.bean.ProjectFuncBean -> com.ldrobot.bean.ProjectFuncBean:
-# {"id":"sourceFile","fileName":"ProjectFuncBean.java"}
     1:2:void <init>():9:10 -> <init>
     1:1:java.lang.String getApSsidPrefix():35:35 -> getApSsidPrefix
     1:1:java.lang.String getDebugUserId():67:67 -> getDebugUserId
@@ -1706,14 +1574,12 @@ com.ldrobot.bean.ProjectFuncBean -> com.ldrobot.bean.ProjectFuncBean:
     1:1:void setSimulators(int):23:23 -> setSimulators
     1:1:void setWebsiteLink(java.lang.String):55:55 -> setWebsiteLink
 com.ldrobot.bean.PropertyIntValueBean -> com.ldrobot.bean.PropertyIntValueBean:
-# {"id":"sourceFile","fileName":"PropertyIntValueBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:long getTime():18:18 -> getTime
     1:1:int getValue():26:26 -> getValue
     1:1:void setTime(long):22:22 -> setTime
     1:1:void setValue(int):30:30 -> setValue
 com.ldrobot.bean.ProtocolBean -> com.ldrobot.bean.ProtocolBean:
-# {"id":"sourceFile","fileName":"ProtocolBean.java"}
     1:1:void <clinit>():120:120 -> <clinit>
     1:1:void <init>():111:111 -> <init>
     2:5:void <init>(android.os.Parcel):114:117 -> <init>
@@ -1723,14 +1589,12 @@ com.ldrobot.bean.ProtocolBean -> com.ldrobot.bean.ProtocolBean:
     1:1:void setCountry(java.lang.String):30:30 -> setCountry
     1:2:void writeToParcel(android.os.Parcel,int):107:108 -> writeToParcel
 com.ldrobot.bean.ProtocolBean$1 -> com.ldrobot.bean.ProtocolBean$1:
-# {"id":"sourceFile","fileName":"ProtocolBean.java"}
     1:1:void <init>():120:120 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):120:120 -> createFromParcel
     2:2:com.ldrobot.bean.ProtocolBean createFromParcel(android.os.Parcel):123:123 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):120:120 -> newArray
     2:2:com.ldrobot.bean.ProtocolBean[] newArray(int):128:128 -> newArray
 com.ldrobot.bean.ProtocolBean$ContentBean -> com.ldrobot.bean.ProtocolBean$ContentBean:
-# {"id":"sourceFile","fileName":"ProtocolBean.java"}
     1:1:void <clinit>():86:86 -> <clinit>
     1:1:void <init>():78:78 -> <init>
     2:4:void <init>(android.os.Parcel):81:83 -> <init>
@@ -1740,14 +1604,12 @@ com.ldrobot.bean.ProtocolBean$ContentBean -> com.ldrobot.bean.ProtocolBean$Conte
     1:1:void setUrl(java.lang.String):63:63 -> setUrl
     1:2:void writeToParcel(android.os.Parcel,int):74:75 -> writeToParcel
 com.ldrobot.bean.ProtocolBean$ContentBean$1 -> com.ldrobot.bean.ProtocolBean$ContentBean$1:
-# {"id":"sourceFile","fileName":"ProtocolBean.java"}
     1:1:void <init>():86:86 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):86:86 -> createFromParcel
     2:2:com.ldrobot.bean.ProtocolBean$ContentBean createFromParcel(android.os.Parcel):89:89 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):86:86 -> newArray
     2:2:com.ldrobot.bean.ProtocolBean$ContentBean[] newArray(int):94:94 -> newArray
 com.ldrobot.bean.RControlBean -> com.ldrobot.bean.RControlBean:
-# {"id":"sourceFile","fileName":"RControlBean.java"}
     1:1:void <init>():14:14 -> <init>
     1:1:java.lang.String getIp():28:28 -> getIp
     1:1:int getPort():36:36 -> getPort
@@ -1757,7 +1619,6 @@ com.ldrobot.bean.RControlBean -> com.ldrobot.bean.RControlBean:
     1:1:void setProtocol(java.lang.String):48:48 -> setProtocol
     1:1:java.lang.String toString():53:53 -> toString
 com.ldrobot.bean.RegisterParams -> com.ldrobot.bean.RegisterParams:
-# {"id":"sourceFile","fileName":"RegisterParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAreaCode():15:15 -> getAreaCode
     1:1:java.lang.String getPassword():31:31 -> getPassword
@@ -1768,7 +1629,6 @@ com.ldrobot.bean.RegisterParams -> com.ldrobot.bean.RegisterParams:
     1:1:void setUserName(java.lang.String):27:27 -> setUserName
     1:1:void setVerificationCode(java.lang.String):43:43 -> setVerificationCode
 com.ldrobot.bean.ResetPwdParams -> com.ldrobot.bean.ResetPwdParams:
-# {"id":"sourceFile","fileName":"ResetPwdParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAccountType():57:57 -> getAccountType
     1:1:java.lang.String getAreaCode():17:17 -> getAreaCode
@@ -1783,14 +1643,12 @@ com.ldrobot.bean.ResetPwdParams -> com.ldrobot.bean.ResetPwdParams:
     1:1:void setUserName(java.lang.String):29:29 -> setUserName
     1:1:void setVerificationCode(java.lang.String):45:45 -> setVerificationCode
 com.ldrobot.bean.RoomOptimizeResult -> com.ldrobot.bean.RoomOptimizeResult:
-# {"id":"sourceFile","fileName":"RoomOptimizeResult.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:int getCode():13:13 -> getCode
     1:1:long getTimeStamp():21:21 -> getTimeStamp
     1:1:void setCode(int):17:17 -> setCode
     1:1:void setTimeStamp(long):25:25 -> setTimeStamp
 com.ldrobot.bean.STSBean -> com.ldrobot.bean.STSBean:
-# {"id":"sourceFile","fileName":"STSBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAccessKeyId():35:35 -> getAccessKeyId
     1:1:java.lang.String getAccessKeySecret():27:27 -> getAccessKeySecret
@@ -1806,7 +1664,6 @@ com.ldrobot.bean.STSBean -> com.ldrobot.bean.STSBean:
     1:1:void setSecurityToken(java.lang.String):55:55 -> setSecurityToken
     1:1:java.lang.String toString():76:76 -> toString
 com.ldrobot.bean.ShareBean -> com.ldrobot.bean.ShareBean:
-# {"id":"sourceFile","fileName":"ShareBean.java"}
     1:1:void <init>():25:25 -> <init>
     1:1:java.util.List getData():64:64 -> getData
     1:1:int getPageNo():48:48 -> getPageNo
@@ -1817,7 +1674,6 @@ com.ldrobot.bean.ShareBean -> com.ldrobot.bean.ShareBean:
     1:1:void setPageSize(int):60:60 -> setPageSize
     1:1:void setTotal(int):44:44 -> setTotal
 com.ldrobot.bean.ShareBean$DataBean -> com.ldrobot.bean.ShareBean$DataBean:
-# {"id":"sourceFile","fileName":"ShareBean.java"}
     1:1:void <init>():71:71 -> <init>
     1:1:java.lang.String getCategoryImage():121:121 -> getCategoryImage
     1:1:java.lang.String getDescription():129:129 -> getDescription
@@ -1848,7 +1704,6 @@ com.ldrobot.bean.ShareBean$DataBean -> com.ldrobot.bean.ShareBean$DataBean:
     1:1:void setTargetId(java.lang.String):117:117 -> setTargetId
     1:1:void setTargetType(java.lang.String):141:141 -> setTargetType
 com.ldrobot.bean.ShareMemberBean -> com.ldrobot.bean.ShareMemberBean:
-# {"id":"sourceFile","fileName":"ShareMemberBean.java"}
     1:1:void <clinit>():149:149 -> <clinit>
     1:1:void <init>():132:132 -> <init>
     2:2:void <init>():22:22 -> <init>
@@ -1878,14 +1733,12 @@ com.ldrobot.bean.ShareMemberBean -> com.ldrobot.bean.ShareMemberBean:
     1:1:void setUserName(java.lang.String):37:37 -> setUserName
     1:11:void writeToParcel(android.os.Parcel,int):119:129 -> writeToParcel
 com.ldrobot.bean.ShareMemberBean$1 -> com.ldrobot.bean.ShareMemberBean$1:
-# {"id":"sourceFile","fileName":"ShareMemberBean.java"}
     1:1:void <init>():149:149 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):149:149 -> createFromParcel
     2:2:com.ldrobot.bean.ShareMemberBean createFromParcel(android.os.Parcel):152:152 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):149:149 -> newArray
     2:2:com.ldrobot.bean.ShareMemberBean[] newArray(int):157:157 -> newArray
 com.ldrobot.bean.SocketResponse -> com.ldrobot.bean.SocketResponse:
-# {"id":"sourceFile","fileName":"SocketResponse.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.Object getData():41:41 -> getData
     1:1:java.lang.String getDevId():81:81 -> getDevId
@@ -1907,14 +1760,12 @@ com.ldrobot.bean.SocketResponse -> com.ldrobot.bean.SocketResponse:
     1:1:void setdInfo(com.ldrobot.bean.SocketResponse$DInfo):77:77 -> setdInfo
     1:1:java.lang.String toString():90:90 -> toString
 com.ldrobot.bean.SocketResponse$DInfo -> com.ldrobot.bean.SocketResponse$DInfo:
-# {"id":"sourceFile","fileName":"SocketResponse.java"}
     1:1:void <init>(com.ldrobot.bean.SocketResponse):112:112 -> <init>
     1:1:java.lang.String getTs():117:117 -> getTs
     1:1:java.lang.String getUserId():125:125 -> getUserId
     1:1:void setTs(java.lang.String):121:121 -> setTs
     1:1:void setUserId(java.lang.String):129:129 -> setUserId
 com.ldrobot.bean.StatisticBean -> com.ldrobot.bean.StatisticBean:
-# {"id":"sourceFile","fileName":"StatisticBean.java"}
     1:9:void <init>():12:20 -> <init>
     1:1:java.lang.String getActive():23:23 -> getActive
     1:1:int getCleanTime():31:31 -> getCleanTime
@@ -1933,7 +1784,6 @@ com.ldrobot.bean.StatisticBean -> com.ldrobot.bean.StatisticBean:
     1:1:void setSumY(int):51:51 -> setSumY
     1:1:void setTag(java.lang.String):75:75 -> setTag
 com.ldrobot.bean.SweepAppointment -> com.ldrobot.bean.SweepAppointment:
-# {"id":"sourceFile","fileName":"SweepAppointment.java"}
     1:1:void <clinit>():212:212 -> <clinit>
     1:1:void <init>():28:28 -> <init>
     2:2:void <init>():26:26 -> <init>
@@ -1971,14 +1821,12 @@ com.ldrobot.bean.SweepAppointment -> com.ldrobot.bean.SweepAppointment:
     1:1:java.lang.String toString():226:226 -> toString
     1:14:void writeToParcel(android.os.Parcel,int):178:191 -> writeToParcel
 com.ldrobot.bean.SweepAppointment$1 -> com.ldrobot.bean.SweepAppointment$1:
-# {"id":"sourceFile","fileName":"SweepAppointment.java"}
     1:1:void <init>():212:212 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):212:212 -> createFromParcel
     2:2:com.ldrobot.bean.SweepAppointment createFromParcel(android.os.Parcel):215:215 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):212:212 -> newArray
     2:2:com.ldrobot.bean.SweepAppointment[] newArray(int):220:220 -> newArray
 com.ldrobot.bean.SweepAppointmentList -> com.ldrobot.bean.SweepAppointmentList:
-# {"id":"sourceFile","fileName":"SweepAppointmentList.java"}
     1:1:void <init>():5:5 -> <init>
     1:1:java.lang.String getTimeZone():11:11 -> getTimeZone
     1:1:java.lang.String getTimeZoneSec():15:15 -> getTimeZoneSec
@@ -1987,14 +1835,12 @@ com.ldrobot.bean.SweepAppointmentList -> com.ldrobot.bean.SweepAppointmentList:
     1:1:void setTimeZoneSec(java.lang.String):19:19 -> setTimeZoneSec
     1:1:void setValue(java.util.ArrayList):31:31 -> setValue
 com.ldrobot.bean.SweepErrorCode -> com.ldrobot.bean.SweepErrorCode:
-# {"id":"sourceFile","fileName":"SweepErrorCode.java"}
     1:1:void <init>():9:9 -> <init>
     1:1:java.util.ArrayList getErrorCodeInfo():22:22 -> getErrorCodeInfo
     1:1:int getIntVersion():14:14 -> getIntVersion
     1:1:void setErrorCodeInfo(java.util.ArrayList):26:26 -> setErrorCodeInfo
     1:1:void setIntVersion(int):18:18 -> setIntVersion
 com.ldrobot.bean.SweepErrorCode$ErrorCode -> com.ldrobot.bean.SweepErrorCode$ErrorCode:
-# {"id":"sourceFile","fileName":"SweepErrorCode.java"}
     1:1:void <init>(com.ldrobot.bean.SweepErrorCode):41:41 -> <init>
     1:1:java.lang.String getAraMsg():184:184 -> getAraMsg
     1:1:java.lang.String getChMsg():88:88 -> getChMsg
@@ -2037,10 +1883,7 @@ com.ldrobot.bean.SweepErrorCode$ErrorCode -> com.ldrobot.bean.SweepErrorCode$Err
     1:1:void setSloMsg(java.lang.String):246:246 -> setSloMsg
     1:1:void setVietMsg(java.lang.String):222:222 -> setVietMsg
     1:1:java.lang.String toString():193:193 -> toString
-com.ldrobot.bean.SweepMopMode -> com.ldrobot.bean.SweepMopMode:
-# {"id":"sourceFile","fileName":"SweepMopMode.java"}
 com.ldrobot.bean.SweepPath -> com.ldrobot.bean.SweepPath:
-# {"id":"sourceFile","fileName":"SweepPath.java"}
     1:13:void <init>():12:24 -> <init>
     1:5:void addPosArray(float[][]):102:106 -> addPosArray
     1:1:java.lang.String getData():50:50 -> getData
@@ -2072,7 +1915,6 @@ com.ldrobot.bean.SweepPath -> com.ldrobot.bean.SweepPath:
     1:1:void setType(int):135:135 -> setType
     1:1:void setVersion(int):98:98 -> setVersion
 com.ldrobot.bean.SweepPathP2P -> com.ldrobot.bean.SweepPathP2P:
-# {"id":"sourceFile","fileName":"SweepPathP2P.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:com.ldrobot.bean.SweepPathP2P$DataBean getData():22:22 -> getData
     1:1:int getInfoType():30:30 -> getInfoType
@@ -2083,7 +1925,6 @@ com.ldrobot.bean.SweepPathP2P -> com.ldrobot.bean.SweepPathP2P:
     1:1:void setMessage(java.lang.String):42:42 -> setMessage
     1:1:void setTs(long):50:50 -> setTs
 com.ldrobot.bean.SweepPathP2P$DataBean -> com.ldrobot.bean.SweepPathP2P$DataBean:
-# {"id":"sourceFile","fileName":"SweepPathP2P.java"}
     1:1:void <init>():53:53 -> <init>
     1:1:int getPathID():69:69 -> getPathID
     1:1:int getPointCounts():77:77 -> getPointCounts
@@ -2096,7 +1937,6 @@ com.ldrobot.bean.SweepPathP2P$DataBean -> com.ldrobot.bean.SweepPathP2P$DataBean
     1:1:void setStartPos(int):89:89 -> setStartPos
     1:1:void setTotalPoints(int):97:97 -> setTotalPoints
 com.ldrobot.bean.SweepRecord -> com.ldrobot.bean.SweepRecord:
-# {"id":"sourceFile","fileName":"SweepRecord.java"}
     1:1:void <clinit>():326:326 -> <clinit>
     1:1:void <init>():41:41 -> <init>
     2:29:void <init>(android.os.Parcel):296:323 -> <init>
@@ -2157,14 +1997,12 @@ com.ldrobot.bean.SweepRecord -> com.ldrobot.bean.SweepRecord:
     1:1:java.lang.String toString():340:340 -> toString
     1:27:void writeToParcel(android.os.Parcel,int):267:293 -> writeToParcel
 com.ldrobot.bean.SweepRecord$1 -> com.ldrobot.bean.SweepRecord$1:
-# {"id":"sourceFile","fileName":"SweepRecord.java"}
     1:1:void <init>():326:326 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):326:326 -> createFromParcel
     2:2:com.ldrobot.bean.SweepRecord createFromParcel(android.os.Parcel):329:329 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):326:326 -> newArray
     2:2:com.ldrobot.bean.SweepRecord[] newArray(int):334:334 -> newArray
 com.ldrobot.bean.SweepStatus -> com.ldrobot.bean.SweepStatus:
-# {"id":"sourceFile","fileName":"SweepStatus.java"}
     1:120:void <init>():12:131 -> <init>
     1:1:int getAiFloorSwitch():598:598 -> getAiFloorSwitch
     1:1:int getAiObstacleSwitch():582:582 -> getAiObstacleSwitch
@@ -2314,14 +2152,12 @@ com.ldrobot.bean.SweepStatus -> com.ldrobot.bean.SweepStatus:
     1:1:void setWorkstationType(int):458:458 -> setWorkstationType
     1:22:java.lang.String toString():695:716 -> toString
 com.ldrobot.bean.UnregisterParams -> com.ldrobot.bean.UnregisterParams:
-# {"id":"sourceFile","fileName":"UnregisterParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getPassword():21:21 -> getPassword
     1:1:java.lang.String getUserId():13:13 -> getUserId
     1:1:void setPassword(java.lang.String):25:25 -> setPassword
     1:1:void setUserId(java.lang.String):17:17 -> setUserId
 com.ldrobot.bean.UpdateTaskBean -> com.ldrobot.bean.UpdateTaskBean:
-# {"id":"sourceFile","fileName":"UpdateTaskBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getCode():30:30 -> getCode
     1:1:int getExeResult():14:14 -> getExeResult
@@ -2330,7 +2166,6 @@ com.ldrobot.bean.UpdateTaskBean -> com.ldrobot.bean.UpdateTaskBean:
     1:1:void setExeResult(int):18:18 -> setExeResult
     1:1:void setTaskId(long):26:26 -> setTaskId
 com.ldrobot.bean.UpdateUserInfoParams -> com.ldrobot.bean.UpdateUserInfoParams:
-# {"id":"sourceFile","fileName":"UpdateUserInfoParams.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getNickname():22:22 -> getNickname
     1:1:java.lang.String getSex():30:30 -> getSex
@@ -2339,14 +2174,12 @@ com.ldrobot.bean.UpdateUserInfoParams -> com.ldrobot.bean.UpdateUserInfoParams:
     1:1:void setSex(java.lang.String):34:34 -> setSex
     1:1:void setUserId(java.lang.String):18:18 -> setUserId
 com.ldrobot.bean.UploadUserAvatarParams -> com.ldrobot.bean.UploadUserAvatarParams:
-# {"id":"sourceFile","fileName":"UploadUserAvatarParams.java"}
     1:1:void <init>():10:10 -> <init>
     1:1:java.io.File getAvatar():23:23 -> getAvatar
     1:1:java.lang.String getUserId():15:15 -> getUserId
     1:1:void setAvatar(java.io.File):27:27 -> setAvatar
     1:1:void setUserId(java.lang.String):19:19 -> setUserId
 com.ldrobot.bean.UserInfoBean -> com.ldrobot.bean.UserInfoBean:
-# {"id":"sourceFile","fileName":"UserInfoBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAliIdentityId():102:102 -> getAliIdentityId
     1:1:java.lang.String getAreaCode():62:62 -> getAreaCode
@@ -2371,7 +2204,6 @@ com.ldrobot.bean.UserInfoBean -> com.ldrobot.bean.UserInfoBean:
     1:1:void setUserId(java.lang.String):34:34 -> setUserId
     1:1:void setUserName(java.lang.String):42:42 -> setUserName
 com.ldrobot.bean.VoiceBean -> com.ldrobot.bean.VoiceBean:
-# {"id":"sourceFile","fileName":"VoiceBean.java"}
     1:1:void <init>():8:8 -> <init>
     1:1:java.lang.String getAuditionUrl():51:51 -> getAuditionUrl
     1:1:java.lang.String getLanguageName():35:35 -> getLanguageName
@@ -2390,7 +2222,6 @@ com.ldrobot.bean.VoiceBean -> com.ldrobot.bean.VoiceBean:
     1:1:void setVoiceName(java.lang.String):31:31 -> setVoiceName
     1:1:void setVoiceUrl(java.lang.String):71:71 -> setVoiceUrl
 com.ldrobot.bean.WifiListBean -> com.ldrobot.bean.WifiListBean:
-# {"id":"sourceFile","fileName":"WifiListBean.java"}
     1:1:void <clinit>():52:52 -> <clinit>
     1:3:void <init>(java.lang.String,java.lang.String):15:17 -> <init>
     4:6:void <init>(android.os.Parcel):47:49 -> <init>
@@ -2400,58 +2231,23 @@ com.ldrobot.bean.WifiListBean -> com.ldrobot.bean.WifiListBean:
     1:1:void setWifiName(java.lang.String):25:25 -> setWifiName
     1:2:void writeToParcel(android.os.Parcel,int):43:44 -> writeToParcel
 com.ldrobot.bean.WifiListBean$1 -> com.ldrobot.bean.WifiListBean$1:
-# {"id":"sourceFile","fileName":"WifiListBean.java"}
     1:1:void <init>():52:52 -> <init>
     1:1:java.lang.Object createFromParcel(android.os.Parcel):52:52 -> createFromParcel
     2:2:com.ldrobot.bean.WifiListBean createFromParcel(android.os.Parcel):55:55 -> createFromParcel
     1:1:java.lang.Object[] newArray(int):52:52 -> newArray
     2:2:com.ldrobot.bean.WifiListBean[] newArray(int):60:60 -> newArray
 com.ldrobot.bean.consts.CleanModeConst -> com.ldrobot.bean.consts.CleanModeConst:
-# {"id":"sourceFile","fileName":"CleanModeConst.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.consts.CleaningResultConst -> com.ldrobot.bean.consts.CleaningResultConst:
-# {"id":"sourceFile","fileName":"CleaningResultConst.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.consts.StartMethodConst -> com.ldrobot.bean.consts.StartMethodConst:
-# {"id":"sourceFile","fileName":"StartMethodConst.java"}
     1:1:void <init>():8:8 -> <init>
 com.ldrobot.bean.consts.WorkModeConst -> com.ldrobot.bean.consts.WorkModeConst:
-# {"id":"sourceFile","fileName":"WorkModeConst.java"}
     1:1:void <init>():8:8 -> <init>
-com.ldrobot.bean.interfaces.GetVerificationType -> com.ldrobot.bean.interfaces.GetVerificationType:
-# {"id":"sourceFile","fileName":"GetVerificationType.java"}
-com.ldrobot.bean.interfaces.IDeviceListener -> com.ldrobot.bean.interfaces.IDeviceListener:
-# {"id":"sourceFile","fileName":"IDeviceListener.java"}
-com.ldrobot.bean.interfaces.INeedLoginListener -> com.ldrobot.bean.interfaces.INeedLoginListener:
-# {"id":"sourceFile","fileName":"INeedLoginListener.java"}
-com.ldrobot.bean.interfaces.InitDeviceListener -> com.ldrobot.bean.interfaces.InitDeviceListener:
-# {"id":"sourceFile","fileName":"InitDeviceListener.java"}
-com.ldrobot.bean.interfaces.InitTokenListener -> com.ldrobot.bean.interfaces.InitTokenListener:
-# {"id":"sourceFile","fileName":"InitTokenListener.java"}
-com.ldrobot.bean.interfaces.NetworkConfigListener -> com.ldrobot.bean.interfaces.NetworkConfigListener:
-# {"id":"sourceFile","fileName":"NetworkConfigListener.java"}
-com.ldrobot.bean.interfaces.NetworkConfigListener$ToWifiSettingsType -> com.ldrobot.bean.interfaces.NetworkConfigListener$ToWifiSettingsType:
-# {"id":"sourceFile","fileName":"NetworkConfigListener.java"}
-com.ldrobot.bean.interfaces.NetworkConfigStepListener -> com.ldrobot.bean.interfaces.NetworkConfigStepListener:
-# {"id":"sourceFile","fileName":"NetworkConfigStepListener.java"}
-com.ldrobot.bean.interfaces.ShareType -> com.ldrobot.bean.interfaces.ShareType:
-# {"id":"sourceFile","fileName":"ShareType.java"}
-com.ldrobot.bean.interfaces.SocketCallBack -> com.ldrobot.bean.interfaces.SocketCallBack:
-# {"id":"sourceFile","fileName":"SocketCallBack.java"}
-com.ldrobot.bean.interfaces.WifiConnectListener -> com.ldrobot.bean.interfaces.WifiConnectListener:
-# {"id":"sourceFile","fileName":"WifiConnectListener.java"}
-com.ldrobot.bean.interfaces.WifiScanCallback -> com.ldrobot.bean.interfaces.WifiScanCallback:
-# {"id":"sourceFile","fileName":"WifiScanCallback.java"}
-com.ldrobot.bean.interfaces.video.OnErrorListener -> com.ldrobot.bean.interfaces.video.OnErrorListener:
-# {"id":"sourceFile","fileName":"OnErrorListener.java"}
-com.ldrobot.bean.interfaces.video.OnPlayerStateChangedListener -> com.ldrobot.bean.interfaces.video.OnPlayerStateChangedListener:
-# {"id":"sourceFile","fileName":"OnPlayerStateChangedListener.java"}
 com.ldrobot.bean.video.MyPlayerException -> com.ldrobot.bean.video.MyPlayerException:
-# {"id":"sourceFile","fileName":"MyPlayerException.java"}
     1:2:void <init>(int,java.lang.String):25:26 -> <init>
     3:5:void <init>(int,int,java.lang.String):30:32 -> <init>
     1:1:int getCode():36:36 -> getCode
     1:1:int getSubCode():40:40 -> getSubCode
 com.ldrobot.bean.video.MyPlayerState -> com.ldrobot.bean.video.MyPlayerState:
-# {"id":"sourceFile","fileName":"MyPlayerState.java"}
     1:1:void <init>():14:14 -> <init>

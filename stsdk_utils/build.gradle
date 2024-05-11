@@ -1,5 +1,11 @@
+plugins {
+    id 'maven-publish'
+}
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+//apply plugin: 'maven-publish'
+//plugins {
+//    id 'maven-publish'
+//}
 //apply from: '../maven-publish.gradle'
 //apply from: '../publish-task.gradle'
 
@@ -56,15 +62,28 @@ dependencies {
     api 'org.greenrobot:eventbus:3.0.0'
 }
 
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.hsq.util'
-            artifactId = 'hsq'
-            version = '1.0.0'
+//publishing {
+//    publications {
+//        release(MavenPublication) {
+//            groupId = 'com.hsq.util'
+//            artifactId = 'hsq'
+//            version = '1.0.0'
+//
+//            afterEvaluate {
+//                from components.findByName('release')
+//            }
+//        }
+//    }
+//}
 
-            afterEvaluate {
-                from components.findByName('release')
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.hsq.util'
+                artifactId = 'hsq'
+                version = '1.0.0'
             }
         }
     }

@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+//apply plugin: 'maven-publish'
 //apply from: '../maven-publish.gradle'
 //apply from: '../publish-task.gradle'
 
@@ -47,15 +47,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.findByName('release')
-                groupId = 'com.hsq.bean' //groupId 随便取
-                artifactId = 'hsq'  //artifactId 随便取
-                version = '1.0.0'
-            }
-        }
-    }
-}
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.findByName('release')
+//                groupId = 'com.hsq.bean' //groupId 随便取
+//                artifactId = 'hsq'  //artifactId 随便取
+//                version = '1.0.0'
+//            }
+//        }
+//    }
+//}

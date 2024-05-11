@@ -5,14 +5,19 @@ apply plugin: 'com.android.library'
 //apply plugin: 'com.github.dcendents.android-maven'
 
 //apply plugin: 'maven-publish'
-//plugins {
-//    id 'maven-publish'
-//}
 //apply from: '../maven-publish.gradle'
 //apply from: '../publish-task.gradle'
 
+//def cloudFile = file('../sdkConfig.properties')
+//Properties properties = new Properties()
+//properties.load(new FileInputStream(cloudFile))
+//
+//def sdkVersion = properties['BEAN_VERSION'].toString()
+//def sdkArtifactId = properties['BEAN_ARTIFACT_ID'].toString()
+//def sdkFileDir = properties['BEAN_FILE_DIR'].toString()
+
 android {
-    namespace 'com.ldrobot.utils'
+    namespace 'com.ldrobot.bean'
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
@@ -27,10 +32,6 @@ android {
     }
 
     buildTypes {
-        debug {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -69,11 +70,10 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.hsq.util'
+                groupId = 'com.hsq.bean'
                 artifactId = 'hsq'
                 version = '1.0.0'
             }
         }
     }
 }
-

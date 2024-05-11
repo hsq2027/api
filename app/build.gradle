@@ -51,9 +51,10 @@ dependencies {
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.2'
     implementation 'com.alibaba:fastjson:1.2.69'
 
-    implementation project(path: ':stsdk_utils')
+//    implementation project(path: ':stsdk_utils')
 //    implementation project(path: ':stsdk_bean')
 //    implementation 'com.gitee.hanshanquan:sdktest:v1.0.4'
 //    implementation 'com.github.hsq2025:utils:-2d590c084e-1'
-    implementation 'com.github.hsq2025:utils:v1.0.6'
+//    implementation 'com.github.hsq2025:utils:v1.0.6'
+//    implementation 'com.github.hsq2025:utils:v1.0.7'
 }

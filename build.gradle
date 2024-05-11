@@ -4,6 +4,10 @@ plugins {
     id 'com.android.library' version '7.4.2' apply false
 }
 
+//dependencies {
+//    classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+//}
+
 ext {
     buildToolsVersion = "33.0.1"
     minSdkVersion = 23

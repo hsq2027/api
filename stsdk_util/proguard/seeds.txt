@@ -3,5 +3,5 @@ com.ldrobot.bean.BuildConfig
 com.ldrobot.bean.BuildConfig: java.lang.String BUILD_TYPE
 com.ldrobot.bean.BuildConfig: boolean DEBUG
 com.ldrobot.bean.BuildConfig: java.lang.String LIBRARY_PACKAGE_NAME
-com.ldrobot.bean.BuildConfig: BuildConfig()
 com.ldrobot.bean.R: R()
+com.ldrobot.bean.BuildConfig: BuildConfig()

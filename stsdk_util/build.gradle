@@ -17,7 +17,7 @@ apply plugin: 'com.android.library'
 //def sdkFileDir = properties['BEAN_FILE_DIR'].toString()
 
 android {
-    namespace 'com.ldrobot.bean'
+    namespace 'com.ldrobot.util'
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 

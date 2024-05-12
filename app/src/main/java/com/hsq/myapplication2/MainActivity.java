@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.alibaba.fastjson.JSON;
+import com.ldrobot.bean.LDSweepMap;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -15,12 +16,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.button1).setOnClickListener(this);
-//        LDSweepMap ldSweepMap = new LDSweepMap();
-//        ldSweepMap.setMapID(1);
+        LDSweepMap ldSweepMap = new LDSweepMap();
+        ldSweepMap.setMapID(1);
 //        String hsq = MD5.GetMD5Code("hsq");
 //        LogUtils.e(hsq + "，地图ID：" + ldSweepMap.getMapID());
-//        String a = "{\"a\":1}";
-//        Object o = JSON.toJSON(a);
+        String a = "{\"a\":1}";
+        Object o = JSON.toJSON(a);
     }
 
     @Override

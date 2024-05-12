@@ -57,5 +57,5 @@ dependencies {
 //    implementation 'com.github.hsq2025:utils:-2d590c084e-1'
 //    implementation 'com.github.hsq2025:utils:v1.0.6'
 //    implementation 'com.github.hsq2025:utils:v1.0.8'
-    implementation 'com.github.hsq2027:api:v1.0.0'
+    implementation 'com.github.hsq2027:api:v1.0.1'
 }

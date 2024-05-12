@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button1).setOnClickListener(this);
         LDSweepMap ldSweepMap = new LDSweepMap();
         ldSweepMap.setMapID(1);
-//        String hsq = MD5.GetMD5Code("hsq");
+//        String hsq = MD5.GetMD5 Code("hsq");
 //        LogUtils.e(hsq + "，地图ID：" + ldSweepMap.getMapID());
         String a = "{\"a\":1}";
         Object o = JSON.toJSON(a);
